@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.main_div{
+    height:100vh;
+    width:100vw;
+ 
+}
+table, tr, th, td{
+    border:1px solid black;
+    border-collapse:collapse;
+}
+table{
+    
+    width:1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: auto;
+    table-layout: fixed;
+}
+.price_table th,td{
+    padding:8px 0px;
+}
+.price_table{
+    margin-top: 30px;
+}
+.price_table tr:nth-child(odd){background-color: #D9D9D9;}
+th{
+    background: #A7A7A7;
+}
